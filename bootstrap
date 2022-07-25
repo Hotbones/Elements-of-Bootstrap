@@ -1,0 +1,98 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Elementos de Interés en Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <style>
+      .Bones {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    cursor: pointer;
+    
+}
+.Bones:hover {
+    border-radius: 5px 5px;
+    position: relative;
+    width: auto;
+    height: auto;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    transition: bacgraund-color 2s;
+}
+    </style>
+  </head>
+  <body>
+    <div class="container py-2">
+      <div class="bg-ligth p-5 rounded-3">
+        <div class="container-fluid py-4">
+        <h1 class="display-5 fw-bold">La informacion</h1>
+        <p class="col-md-8 fs-4">
+          El mercado de informacion es vital para estos dias
+          en la actualidad la informacion vale mas que el dinero fisico
+          ya que con la informacion ganas tiempo y te podes anticipar
+          a los problemas de los dias venideros
+        </p>
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Definición
+</button>
+<!-- Cuerpo del Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Se define como:</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        El conjunto de datos, ya procesados y ordenados para su comprensión,
+        que aportan nuevos conocimientos a un individuo o sistema sobre un asunto,
+          materia, fenómeno o ente determinado.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+
+  <hr>
+
+  <div class="container2 py-4">
+    <div class="mb-3">
+      <label for="name" class="form-label">Nombre</label>
+      <input type="name" class="form-control" id="name" placeholder="Ingresar Nombre">
+    </div>
+    <div class="mb-3">
+      <label for="number" class="form-label">Numero telefónico</label>
+      <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Ingresar Numero">
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Mesaje</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Puede dejar su mensaje aquí"></textarea>
+    </div>
+</div>
+
+<hr>
+
+<div class="container3 py-4">
+  <div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <h5 class="card-title">Bones</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Perfil: Full Stack</h6>
+      <p class="card-text">Soy una persona con muchas ganas de aprender, desarrollar proyectos útiles y trabajar en equipo.</p>
+      <h7 class="card-subtitle mb-2 text-muted" >Email: hotbones22@gmail.com</h7>
+    </div>
+  </div>
+</div>
+  </div>
+
+<hr>
+<h5 class="Bones">By Bones</h5></body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</html>
